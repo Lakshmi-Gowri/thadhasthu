@@ -1,0 +1,15 @@
+p1=int(input("Enter runs scored by player 1: "))
+p2=int(input("Enter runs scored by player 2: "))
+p3=int(input("Enter runs scored by player 3: "))
+st_rate1=p1*100/60
+st_rate2=p2*100/60
+st_rate3=p3*100/60
+print("Player 1 strike rate is: ",st_rate1)
+print("Player 2 strike rate is: ",st_rate2)
+print("Player 3 strike rate is: ",st_rate3)
+print("Player 1 scores is :",p1*2)
+print("Player 2 scores is :",p2*2)
+print("Player 3 scores is :",p3*2)
+print("Sixers by player 1:",p1//6)
+print("Sixers by player 2:",p2//6)
+print("Sixers by player 3:",p3//6)
